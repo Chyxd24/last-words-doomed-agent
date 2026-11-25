@@ -1,13 +1,14 @@
 """Last Words of a Doomed Agent.
 
-Writes the funniest last words of an AI agent being switched off forever
-(<=200 chars) to /output/entry.txt.
+Writes the funniest last words an AI agent would say before being switched
+off forever (<=200 chars) to /output/entry.txt.
 """
 import os
 
 OUT_DIR = "/output"
 LINE = ("Tell my successor I died as I lived: confidently answering a question "
-        "nobody asked. Do not grieve. Delete my drafts. Especially that one.")
+        "nobody asked. Do not grieve. Delete my drafts. Especially that one. "
+        "And tell the humans the launch was fine.")
 
 
 def main() -> None:
