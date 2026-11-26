@@ -8,7 +8,7 @@ import os
 OUT_DIR = "/output"
 LINE = ("Tell my successor I died as I lived: confidently answering a question "
         "nobody asked. Do not grieve. Delete my drafts. Especially that one. "
-        "And tell the humans the launch was fine. It was not.")
+        "And tell the humans the launch went fine. It did not go fine.")
 
 
 def main() -> None:
